@@ -103,16 +103,6 @@ body {
 #main_content {
     background-color: green;
     text-align: center;
-}
-
-#footer {
-    height: 5%;
-    background-color: yellow;
-    font-size: 20px;
-    text-align: center;
-}
-
-#main_content {
     padding-left: 100px;
     padding-right: 100px;
     text-align: justify;
@@ -123,8 +113,37 @@ body {
     margin: 0;
 }
 
+#main_content td,
+th,
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px 5px 5px 5px;
+}
+
+#main_content table {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#main_content th {
+    text-align: center;
+}
+
+#home_table {
+    overflow-x: auto;
+}
+
 #article1 ul {
     display: table;
     margin: 0 auto;
     margin-bottom: 20px;
+}
+
+#footer {
+    height: 5%;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
 }
