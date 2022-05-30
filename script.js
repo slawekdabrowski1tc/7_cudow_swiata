@@ -1,3 +1,5 @@
+//skopiowane z w3schools
+
 function myFunction()
 {
     var x = document.getElementById("myTopnav");
