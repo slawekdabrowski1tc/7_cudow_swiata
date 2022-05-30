@@ -1,0 +1,107 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+#header {
+    background-color: red;
+}
+
+#logo {
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#logo_img {
+    border: 5px solid black;
+}
+
+#logo_txt {
+    font-family: 'Blaka', cursive;
+    font-size: 80px;
+    color: black;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header_text {
+    font-size: 70px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+#main_content {
+    background-color: green;
+    text-align: center;
+}
+
+#footer {
+    height: 5%;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+}
