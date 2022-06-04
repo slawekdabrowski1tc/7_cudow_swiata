@@ -207,3 +207,58 @@ table {
     font-size: 20px;
     text-align: center;
 }
+
+
+
+/* dla index.html */
+#main_content_index {
+    background-color: green;
+}
+
+#main_content_index p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#main_content_index img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+    max-width: max-content;
+}
+
+/* dla opinion.html */
+.comment_form {
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.comment_header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.comment_header p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.comment_header {
+    text-align: center;
+}
+
+#comment {
+    background-color: green;
+    margin-bottom: 10px;
+}
+
+#opinion {
+    width: 90%;
+    resize: vertical;
+    height: 400px;
+}

@@ -29,7 +29,7 @@
                 <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="/info.html">Informacje ogólne</a>
+                <a href="/info.html">Infomacje ogólne</a>
                 <a href="/info.html#article1">Piramida Cheopsa</a>
                 <a href="/info.html#article2">Wiszące ogrody Semiramidy</a>
                 <a href="/info.html#article3">Świątynia Artemidy w Efezie</a>
@@ -42,10 +42,42 @@
         <a href="/opinion.html">Opinia</a>
         <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
-    <div id="main_content_index">
-        <p>Strona poświęcona 7 cudom świata antycznego!</p>
-        <img src="img/7-wonders-of-the-world.jpg" alt="7 cudów świata">
+
+    <div id="comment">
+        <div class="comment_header">
+            <h1>Wyślij nam swoją opinię na temat tej strony</h1>
+            <p>pamiętaj o kulturze i cenzurze</p>
+        </div>
+        <div class="comment_form">
+            <form action="mailto:info@bialystok.pl" method="post">
+                <label for="name">Imię:</label><br>
+                <input type="text" name="name" maxlength="20" id="name"><br>
+                <label for="nick">Pseudonim:</label><br>
+                <input type="text" name="nick" maxlength="99" id="nick"><br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" name="email" id="email"><br>
+                <label for="date">Data urodzenia</label><br>
+                <input type="date" name="date" id="date"><br>
+
+                Płeć:
+                <br>
+                <label for="male">mężczyzna</label>
+                <input type="radio" name="sex" id="male" value="mężczyzna">
+                <label for="female">kobieta</label>
+                <input type="radio" name="sex" id="female" value="kobieta">
+                <br>
+                <br>
+                <label for="opinion">Twoja opinia na temat tej strony:</label><br>
+                <textarea name="opinion" id="opinion"  maxlength="5000"
+                    placeholder="Tutaj wpisz swoją opinię"></textarea><br>
+                <button type="button" onclick="alert('Przesłano')">
+                    Prześlij opinię
+                </button>
+                <button type="reset">Wyczyść opinię</button>
+            </form>
+        </div>
     </div>
+
     <div id="footer">Sławek Dąbrowski 1tc</div>
 </body>
 
