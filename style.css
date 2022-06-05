@@ -74,7 +74,10 @@ body {
 .dropdown {
     float: left;
     overflow: hidden;
+}
 
+.dropdown_text {
+    padding: 10px 10px 10px 10px;
 }
 
 .dropdown .dropbtn {
@@ -222,6 +225,41 @@ table {
     font-size: 20px;
     text-align: center;
 }
+
+/* pasek z linkami na dole */
+.outside_links {
+    text-align: center;
+}
+
+.bottomnav {
+    position: relative;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+
+.bottomnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.bottomnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+    .bottomnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
 
 
 
