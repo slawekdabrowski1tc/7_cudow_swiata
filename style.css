@@ -45,6 +45,7 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #333;
+    
 }
 
 .topnav a {
@@ -55,20 +56,24 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    
 }
 
 .active {
     background-color: #04AA6D;
     color: white;
+    
 }
 
 .topnav .icon {
     display: none;
+    
 }
 
 .dropdown {
     float: left;
     overflow: hidden;
+    
 }
 
 .dropdown .dropbtn {
@@ -80,6 +85,7 @@ body {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    
 }
 
 .dropdown-content {
@@ -89,6 +95,7 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    
 }
 
 .dropdown-content a {
@@ -98,12 +105,14 @@ body {
     text-decoration: none;
     display: block;
     text-align: left;
+    
 }
 
 .topnav a:hover,
 .dropdown:hover .dropbtn {
     background-color: #555;
     color: white;
+    
 }
 
 .dropdown-content a:hover {
@@ -201,6 +210,15 @@ table {
     margin-bottom: 20px;
 }
 
+.info_image {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: max-content;
+}
+
 #footer {
     height: 5%;
     background-color: yellow;
@@ -262,3 +280,4 @@ table {
     resize: vertical;
     height: 400px;
 }
+

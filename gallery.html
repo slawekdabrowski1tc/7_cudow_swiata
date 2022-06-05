@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7 cudów świata</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Blaka&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style_gallery.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="img/logo-background_150x150.png" alt="logo" id="logo_img">
+            <div id="logo_txt">cud7</div>
+        </div>
+        <div id="header_text">7 cudów świata</div>
+    </div>
+    <div class="topnav" id="myTopnav">
+        <a href="/index.html" class="active">Strona główna</a>
+        <div class="dropdown">
+            <button class="dropbtn">7 cudów świata
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="/info.html">Informacje ogólne</a>
+                <a href="/info.html#article1">Piramida Cheopsa</a>
+                <a href="/info.html#article2">Wiszące ogrody Semiramidy</a>
+                <a href="/info.html#article3">Świątynia Artemidy w Efezie</a>
+                <a href="/info.html#article4">Posąg Zeusa w Olimpii</a>
+                <a href="/info.html#article5">Mauzoleum w Halikarnasie</a>
+                <a href="/info.html#article6">Kolos Rodyjski</a>
+                <a href="/info.html#article7">Latarnia morska na Faros</a>
+            </div>
+        </div>
+        <a href="/opinion.html">Opinia</a>
+        <a href="/gallery.html">Galeria</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div id="main_content_gallery">
+        <h1>Galeria zdjęć o 7 cudach świata</h1>
+
+        <div class="container">
+            <div class="mySlides">
+                <div class="numbertext">1 / 7</div>
+                <img src="img/piramida.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 7</div>
+                <img src="img/ogrody.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 7</div>
+                <img src="img/artemida.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 7</div>
+                <img src="img/zeus.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 7</div>
+                <img src="img/mauzoleum.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 7</div>
+                <img src="img/kolos.png" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">7 / 7</div>
+                <img src="img/Latarnia.png" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="img/piramida_small.png" style="width:100%" onclick="currentSlide(1)"
+                        alt="Piramida Cheopsa">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/ogrody_small.png" style="width:100%" onclick="currentSlide(2)"
+                        alt="Wiszące ogrody Semiramidy">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/artemida_small.png" style="width:100%" onclick="currentSlide(3)"
+                        alt="Świątynia Artemidy w Efezie">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/zeus_small.png" style="width:100%" onclick="currentSlide(4)"
+                        alt="Posąg Zeusa w Olimpii">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/mauzoleum_small.png" style="width:100%" onclick="currentSlide(5)"
+                        alt="Mauzoleum w Halikarnasie">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/kolos_small.png" style="width:100%" onclick="currentSlide(6)"
+                        alt="Kolos Rodyjski">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/Latarnia_small.png" style="width:100%" onclick="currentSlide(7)"
+                        alt="Latarnia morska w Faros">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">Sławek Dąbrowski 1tc</div>
+</body>
+
+</html>
