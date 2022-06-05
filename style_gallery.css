@@ -12,7 +12,6 @@
 
 .mySlides {
     display: none;
-
 }
 
 
@@ -62,7 +61,7 @@
 
 .caption-container {
     text-align: center;
-    background-color: #222;
+    background-color: #DA0037;
     padding: 2px 16px;
     color: white;
 }
@@ -90,11 +89,28 @@
 
 /* dla gallery.html */
 #main_content_gallery {
-    background-color: green;
+    background-color: #171717;
+    /* padding-bottom: 20px; */
 }
 
-#main_content_gallery h1 {
+#main_content_gallery p {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+#float_reset {
+    clear: both;
+}
+
+#footer {
+    height: 22px;
+    background-color: #DA0037;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
 }
