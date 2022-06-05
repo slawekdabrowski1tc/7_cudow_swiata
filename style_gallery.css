@@ -103,14 +103,3 @@
 #float_reset {
     clear: both;
 }
-
-#footer {
-    height: 22px;
-    background-color: #DA0037;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
-    position: absolute;
-    bottom: -70px;
-    width: 100%;
-}
